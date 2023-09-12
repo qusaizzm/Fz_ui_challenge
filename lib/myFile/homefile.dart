@@ -46,7 +46,7 @@ class HomeFile extends StatelessWidget {
                       image: DecorationImage(
                         image:
                             // Image.asset(),
-                            ExactAssetImage('images/qusai.jpg'),
+                            ExactAssetImage('assets/images/qusai.jpg'),
                         fit: BoxFit.fitHeight,
                       ),
                       shape: BoxShape.circle,
@@ -150,7 +150,7 @@ class ItemCard extends StatelessWidget {
                   width: 120,
 
                   child: Image.asset(
-                    "images/ebook.png", // appitem.image!,
+                    "assets/images/ebook.png", // appitem.image!,
                     fit: BoxFit.fitHeight,
                   ),
                 ),

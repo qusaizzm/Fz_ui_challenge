@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fz_ui_challenge/fz_ebook/pages/root_app.dart';
+import 'package:fz_ui_challenge/fz_snapchat/pages/root_app.dart';
 
 class AppItem {
   final int? id;
@@ -16,15 +17,15 @@ List<AppItem> apps = [
     id: 1,
     type: "UI",
     title: "FZ E_BOOK APP",
-    image: "images/ebook.png",
-    path: const RootApp(),
+    image: "assets/images/ebook.png",
+    path: const EBookApp(),
   ),
   AppItem(
     id: 4,
     type: "68",
     title: "Poppy Plastic Tub Chair",
-    image: "images/Item_2.png",
-    path: const RootApp(),
+    image: "assets/images/Item_2.png",
+    path:  SnapChatApp(),
 
   ),
 ];
