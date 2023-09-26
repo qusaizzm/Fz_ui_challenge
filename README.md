@@ -2,6 +2,7 @@
 
 A new Flutter project.
 
+[![Alt text](assets/ui.PNG)](https://www.youtube.com/shorts/Z1a2OAu8DdA)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
